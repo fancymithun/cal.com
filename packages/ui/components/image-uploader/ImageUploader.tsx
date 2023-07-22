@@ -210,7 +210,7 @@ export default function ImageUploader({
             </label>
           </div>
         </div>
-        <div className="mt-5 flex flex-row-reverse gap-x-2 sm:mt-4">
+        <div className="mb-5 flex flex-row-reverse gap-x-2 sm:mb-4">
           <DialogClose color="primary" onClick={() => showCroppedImage(croppedAreaPixels)}>
             {t("save")}
           </DialogClose>
